@@ -1,1 +1,2 @@
 Questo file è stato creato da remoto e dovrà essere scaricato nella copia in locale.
+... e poi anche modificato in un secondo commit!

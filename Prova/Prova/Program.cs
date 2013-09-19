@@ -20,7 +20,7 @@ namespace Prova
                 };
 
             Console.WriteLine("Nome Assistito {0}", myAssisitito.Nome);
-
+            zzz
             Console.ReadLine();
 
 

@@ -10,6 +10,7 @@ namespace Prova
         static void Main(string[] args)
         {
             Console.WriteLine("Prova per GIT");
+            Console.WriteLine("Questa è la versione 2.0!");
             Console.ReadLine();
         }
     }

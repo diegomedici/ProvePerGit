@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="ProvaGit" default="runner" basedir="." xmlns="http://nant.sf.net/release/0.90/nant.xs">
+  <description>Progetto ProvaGit</description>
+
+  <property name="nant.onfailure" value="fail" />
+  <property name="project.name" value="ProvaGit"/>
+  <property name="project.path" value="../Prova"/>
+  <property name="tools.msbuild4" value="C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\msbuild.exe"/>
+
+  
+  <target name="runner"
+			description="build the source using MsBuild">
+    <exec program="${tools.msbuild4}" basedir=".">
+      <arg value="${project.path}\Prova.sln"/>
+      <arg value="/T:Rebuild"/>
+      <arg value="/p:Configuration=debug"/>
+      <arg value="/v:minimal"/>
+    </exec>
+  </target>
+
+
+  <target name="fail">
+  </target>
+
+</project>

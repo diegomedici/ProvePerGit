@@ -10,7 +10,18 @@ namespace Prova
         static void Main(string[] args)
         {
             Console.WriteLine("Prova per GIT");
+            //Console.ReadLine();
+
+            Assistito myAssisitito = new Assistito
+                {
+                    Nome = "Diego Medici"
+                };
+
+            Console.WriteLine("Nome Assistito {0}", myAssisitito.Nome);
+
             Console.ReadLine();
+
+
         }
     }
 }
